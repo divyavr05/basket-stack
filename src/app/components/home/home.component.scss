@@ -1,0 +1,103 @@
+
+.apple {
+    background: #ea2c2c96;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    margin: 2px;
+}
+.orange {
+    background: #ffa500b8;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    margin: 2px;
+}
+.grape {
+    background: #00800078;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    margin: 2px;
+}
+.apple-div {
+    height: 200px;
+    width: 150px;
+    border: 1px solid grey;
+    padding: 10px;
+    display: inline-block;
+    margin-left: 20px;
+    background: #ea2c2c96;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    -webkit-box-shadow: 4px 3px 25px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: 4px 3px 25px -4px rgba(0,0,0,0.75);
+box-shadow: 4px 3px 25px -4px rgba(0,0,0,0.75);
+}
+.orange-div {
+    height: 200px;
+    width: 150px;
+    border: 1px solid grey;
+    padding: 10px;
+    display: inline-block;
+    margin-left: 20px;
+    background: #ffa500b8 ;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    -webkit-box-shadow: 4px 3px 25px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: 4px 3px 25px -4px rgba(0,0,0,0.75);
+box-shadow: 4px 3px 25px -4px rgba(0,0,0,0.75);
+}
+.grape-div {
+    height: 200px;
+    width: 150px;
+    border: 1px solid grey;
+    padding: 10px;
+    display: inline-block;
+    margin-left: 20px;
+    background: #00800078;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    -webkit-box-shadow: 4px 3px 25px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: 4px 3px 25px -4px rgba(0,0,0,0.75);
+box-shadow: 4px 3px 25px -4px rgba(0,0,0,0.75);
+}
+.mrg-btm {
+    margin-bottom: 30px;
+}
+.center {
+      margin: auto;
+      width: 50%;
+      padding: 10px;
+    
+    }
+.basket-stack{
+     height: 200px;
+    width: 150px;
+    border: 1px solid grey;
+    padding: 10px;
+    display: inline-block;
+    margin-left: 20px;
+    background:whitesmoke;
+    border-radius: 20px;
+    padding: 10px;
+    -webkit-box-shadow: 4px 3px 25px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: 4px 3px 25px -4px rgba(0,0,0,0.75);
+box-shadow: 4px 3px 25px -4px rgba(0,0,0,0.75);
+}
+.action-btn{
+    background: whitesmoke ;
+    padding: 5px;
+    margin: 5px;
+    outline: none;
+    border: none;
+    color: black;
+    font-weight: 500;
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+
+}

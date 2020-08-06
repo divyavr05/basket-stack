@@ -1,0 +1,55 @@
+<div class="basket-wrapper">
+    <div class="all-stack-wrapper center">
+        <div class="apple-div">
+            <div class="mrg-btm">
+                Apple
+            </div>
+            <div class="mrg-btm">
+                {{appleCount}}
+            </div>
+            <div>
+                <button class="action-btn" (click)="addToAllstack('apple')" [disabled]="appleCount === 0"> +</button>
+                <button class="action-btn" (click)="removeFromAllstack('apple')" [disabled]="appleCount > 9">-</button>
+            </div>
+        </div>
+        <div class="orange-div">
+            <div class="mrg-btm">
+                Orange
+            </div>
+            <div class="mrg-btm">
+                {{orangeCount}}
+            </div>
+            <div>
+                <button class="action-btn" (click)="addToAllstack('orange')" [disabled]="orangeCount === 0">+</button>
+                <button  class="action-btn"(click)="removeFromAllstack('orange')" [disabled]="orangeCount > 9">-</button>
+            </div>
+        </div>
+        <div class="grape-div">
+            <div class="mrg-btm">
+                Grapes
+            </div>
+            <div class="mrg-btm">
+                {{grapeCount}}
+            </div>
+            <div>
+                <button class="action-btn" (click)="addToAllstack('grape')" [disabled]="grapeCount === 0">+</button>
+                <button  class="action-btn"(click)="removeFromAllstack('grape')" [disabled]="grapeCount > 9">-</button>
+            </div>
+        </div>
+    </div>
+    <div class="center">
+        <div class="basket-stack center">
+            <div *ngFor="let fruit of reversedBasketStack">
+                    <div class="apple" *ngIf="fruit.type === 'apple'">
+                        {{fruit.type}}
+                    </div>
+                    <div class="orange" *ngIf="fruit.type === 'orange'">
+                        {{fruit.type}}
+                    </div>
+                    <div class="grape" *ngIf="fruit.type === 'grape'">
+                        {{fruit.type}}
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>

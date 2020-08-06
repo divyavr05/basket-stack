@@ -1,0 +1,23 @@
+<div class="login-container center">
+<div class="login-form">
+    <div>
+        <mat-form-field appearance="outline" class="mt-input">
+            <input type="text" matInput [(ngModel)]="uName" placeholder="User name">
+          </mat-form-field>
+    </div>
+    <div>
+        <mat-form-field appearance="outline" class="mt-input">
+            <input type="password" matInput [(ngModel)]="password" placeholder="Password">
+          </mat-form-field>
+    </div>
+    <div>
+        <button (click)="login()" class="submit-btn" mat-raised-button>
+            Submit
+          </button>
+    </div>
+    <div>
+        <span class="error" *ngIf="errorFlag">In-correct username and password</span>
+    </div>
+</div>
+</div>
+

@@ -1,0 +1,11 @@
+<div class="header-container">
+<button (click)="navToLogin()" class="login-btn" mat-raised-button *ngIf="router.url !== '/home'">
+  Login
+</button>
+<button (click)="logout()" class="login-btn" mat-raised-button *ngIf="router.url === '/home'">
+  Log out
+</button>
+</div>
+<div class="body-container">
+<router-outlet></router-outlet>
+</div>
